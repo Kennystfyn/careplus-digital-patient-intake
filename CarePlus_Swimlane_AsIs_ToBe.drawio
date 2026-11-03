@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="ChatGPT" pages="2">
   <diagram id="66d804fdb2" name="AS-IS Swimlane">
-    <mxGraphModel dx="1893" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1180" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1900" pageHeight="1180" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,48 +68,60 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d327341e97" name="TO-BE Swimlane">
-    <mxGraphModel dx="2225" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1180" math="0" shadow="0">
+    <mxGraphModel dx="2113" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1180" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1;fontColor=#102D52;" value="CAREPLUS HOSPITAL | TO-BE DIGITAL PATIENT INTAKE" vertex="1">
           <mxGeometry height="40" width="1550" x="55" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="sub" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#52677C;" value="Proposed future state • Two registration channels • Secure EHR integration • Assisted access" vertex="1">
+        <mxCell id="sub" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#52677C;fontStyle=1" value="Proposed future state • Two registration channels • Secure EHR integration • Assisted access" vertex="1">
           <mxGeometry height="28" width="1660" x="55" y="62" as="geometry" />
         </mxCell>
-        <mxCell id="p" parent="1" style="swimlane;html=1;startSize=200;horizontal=0;rounded=0;container=1;collapsible=0;whiteSpace=wrap;fillColor=#EAF3FF;swimlaneFillColor=#FFFFFF;strokeColor=#A9BBCB;fontSize=17;fontStyle=1;fontColor=#153B63;align=center;verticalAlign=middle;" value="PATIENT" vertex="1">
+        <mxCell id="p" parent="1" style="swimlane;html=1;startSize=200;horizontal=0;rounded=0;container=1;collapsible=0;whiteSpace=wrap;fillColor=#EAF3FF;swimlaneFillColor=#FFFFFF;strokeColor=#A9BBCB;fontSize=17;fontStyle=0;fontColor=#153B63;align=center;verticalAlign=middle;" value="PATIENT" vertex="1">
           <mxGeometry height="155" width="1730" x="55" y="115" as="geometry" />
         </mxCell>
-        <mxCell id="a" parent="p" style="ellipse;html=1;whiteSpace=wrap;fillColor=#DDF5E6;strokeColor=#27805A;fontColor=#145A36;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" value="Starts registration" vertex="1">
-          <mxGeometry height="79" width="190" x="15" y="39" as="geometry" />
-        </mxCell>
         <mxCell id="b" parent="p" style="rhombus;html=1;whiteSpace=wrap;fillColor=#FFF1D1;strokeColor=#C58B21;fontColor=#493A1C;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" value="Register before arrival on mobile?" vertex="1">
-          <mxGeometry height="79" width="190" x="250" y="39" as="geometry" />
+          <mxGeometry height="79" width="190" x="465" y="25" as="geometry" />
         </mxCell>
-        <mxCell id="c" parent="p" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="Complete digital form on mobile" vertex="1">
-          <mxGeometry height="79" width="190" x="540" y="39" as="geometry" />
+        <mxCell id="c" parent="p" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1" value="Complete digital form on mobile" vertex="1">
+          <mxGeometry height="90" width="190" x="745" y="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a" parent="p" style="ellipse;html=1;whiteSpace=wrap;fillColor=#DDF5E6;strokeColor=#27805A;fontColor=#145A36;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" value="Starts registration" vertex="1">
+          <mxGeometry height="79" width="190" x="205" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="p" source="a" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="b" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r" parent="1" style="swimlane;html=1;startSize=200;horizontal=0;rounded=0;container=1;collapsible=0;whiteSpace=wrap;fillColor=#ECFAF4;swimlaneFillColor=#FFFFFF;strokeColor=#A9BBCB;fontSize=17;fontStyle=1;fontColor=#153B63;align=center;verticalAlign=middle;" value="FRONT DESK / SUPPORT" vertex="1">
           <mxGeometry height="155" width="1730" x="55" y="279" as="geometry" />
         </mxCell>
-        <mxCell id="k" parent="r" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="Use waiting-room iPad with support" vertex="1">
-          <mxGeometry height="79" width="190" x="540" y="39" as="geometry" />
+        <mxCell id="k" parent="r" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1" value="Use waiting-room iPad with support" vertex="1">
+          <mxGeometry height="79" width="190" x="425" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="r" source="k" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;fontStyle=0" value="Submit">
+          <mxGeometry relative="1" x="0.3733" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="90.5" />
+              <mxPoint x="925" y="121" />
+            </Array>
+            <mxPoint x="985" y="121" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="app" parent="1" style="swimlane;html=1;startSize=200;horizontal=0;rounded=0;container=1;collapsible=0;whiteSpace=wrap;fillColor=#FFF4E9;swimlaneFillColor=#FFFFFF;strokeColor=#A9BBCB;fontSize=17;fontStyle=1;fontColor=#153B63;align=center;verticalAlign=middle;" value="DIGITAL INTAKE PLATFORM" vertex="1">
-          <mxGeometry height="155" width="1730" x="55" y="443" as="geometry" />
+          <mxGeometry height="155" width="1730" x="55" y="444" as="geometry" />
         </mxCell>
-        <mxCell id="v" parent="app" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="Validate form and required fields" vertex="1">
-          <mxGeometry height="79" width="190" x="800" y="39" as="geometry" />
+        <mxCell id="v" parent="app" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1" value="Validate form and required fields" vertex="1">
+          <mxGeometry height="79" width="190" x="875" y="38" as="geometry" />
         </mxCell>
-        <mxCell id="w" parent="app" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="Send securely to EHR interface" vertex="1">
-          <mxGeometry height="79" width="190" x="1070" y="39" as="geometry" />
+        <mxCell id="w" parent="app" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1" value="Send securely to EHR interface" vertex="1">
+          <mxGeometry height="79" width="190" x="1185" y="38" as="geometry" />
         </mxCell>
         <mxCell id="ehr" parent="1" style="swimlane;html=1;startSize=200;horizontal=0;rounded=0;container=1;collapsible=0;whiteSpace=wrap;fillColor=#F3EEFF;swimlaneFillColor=#FFFFFF;strokeColor=#A9BBCB;fontSize=17;fontStyle=1;fontColor=#153B63;align=center;verticalAlign=middle;" value="EXISTING EHR SYSTEM" vertex="1">
           <mxGeometry height="155" width="1730" x="55" y="607" as="geometry" />
         </mxCell>
-        <mxCell id="z" parent="ehr" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="Match or create record and save data" vertex="1">
-          <mxGeometry height="79" width="190" x="1300" y="39" as="geometry" />
+        <mxCell id="z" parent="ehr" style="rounded=1;arcSize=12;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#4D86B5;strokeWidth=1.5;fontColor=#173B5D;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1" value="Match or create record and save data" vertex="1">
+          <mxGeometry height="79" width="190" x="1275" y="38" as="geometry" />
         </mxCell>
         <mxCell id="doc" parent="1" style="swimlane;html=1;startSize=200;horizontal=0;rounded=0;container=1;collapsible=0;whiteSpace=wrap;fillColor=#E9F7FA;swimlaneFillColor=#FFFFFF;strokeColor=#A9BBCB;fontSize=17;fontStyle=1;fontColor=#153B63;align=center;verticalAlign=middle;" value="NURSE / CLINICAL TEAM" vertex="1">
           <mxGeometry height="155" width="1730" x="55" y="771" as="geometry" />
@@ -117,32 +129,32 @@
         <mxCell id="q" parent="doc" style="ellipse;html=1;whiteSpace=wrap;fillColor=#DCECFD;strokeColor=#2567AB;fontColor=#164877;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" value="Review patient details and continue care" vertex="1">
           <mxGeometry height="79" width="190" x="1495" y="39" as="geometry" />
         </mxCell>
-        <mxCell id="edge0" edge="1" parent="1" source="a" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="b" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="edge1" edge="1" parent="1" source="b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="c" value="Yes">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge2" edge="1" parent="1" source="b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="k" value="No">
+        <mxCell id="edge2" edge="1" parent="1" source="b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0" target="k" value="No"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=0" target="v" value="Submit">
+          <mxGeometry relative="1" x="0.4238" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="185" />
+              <mxPoint x="1040" y="185" />
+            </Array>
+            <mxPoint x="1200" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="v" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;fontStyle=0" target="w" value="Valid information">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="w" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;fontStyle=0" target="z" value="Integrated transfer">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="357.5" />
+              <mxPoint x="1560" y="513.5" />
+              <mxPoint x="1560" y="599.5" />
+              <mxPoint x="1450" y="599.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge3" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="v" value="Submit">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge4" edge="1" parent="1" source="k" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="v" value="Submit">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge5" edge="1" parent="1" source="v" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="w" value="Valid information">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge6" edge="1" parent="1" source="w" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="z" value="Integrated transfer">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge7" edge="1" parent="1" source="z" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;" target="q" value="Record available">
+        <mxCell id="edge7" edge="1" parent="1" source="z" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#386C97;strokeWidth=2;fontColor=#123452;fontSize=12;labelBackgroundColor=#FFFFFF;fontStyle=0" target="q" value="Record available">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="note" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#F7FAFE;strokeColor=#AEC5DA;fontColor=#2E4D67;fontSize=14;align=left;verticalAlign=middle;spacingLeft=18;" value="&lt;b&gt;Process notes:&lt;/b&gt; This is a proposed workflow, not a deployed system. If data is incomplete, the platform should prompt correction before transfer. Front-desk staff support patients unfamiliar with iPads. The EHR connection and privacy controls require technical validation." vertex="1">
