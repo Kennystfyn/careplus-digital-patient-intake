@@ -47,6 +47,16 @@ A structured, evidence-based case for moving CarePlus from paper intake to a dig
 ## Skills demonstrated
 As-Is/To-Be process mapping · PPT gap analysis · Fishbone root-cause analysis · SWOT · McKinsey 7S · PESTLE · stakeholder analysis · BRD and functional/non-functional requirements writing · risk register · phased implementation roadmap · KPI & benefits measurement planning
 
+## Process diagrams
+**Current process (AS-IS)** — paper form, manual retyping, paper-based handoff to clinicians.
+
+![CarePlus AS-IS patient intake](./careplus-as-is-swimlane.png)
+
+**Proposed process (TO-BE)** — mobile or assisted iPad registration, validation, secure EHR transfer.
+
+![CarePlus TO-BE digital patient intake](./careplus-to-be-swimlane.png)
+
 ## Files
 - [CarePlus_Digital_Patient_Intake_Portfolio_Report.pdf](./CarePlus_Digital_Patient_Intake_Portfolio_Report.pdf) — full business analysis portfolio report
-- [CarePlus_Swimlane_AsIs_ToBe.drawio](./CarePlus_Swimlane_AsIs_ToBe.drawio) — editable As-Is / To-Be swimlane diagrams (open at [app.diagrams.net](https://app.diagrams.net))
+- **[▶ View the As-Is / To-Be swimlane diagrams online](https://viewer.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FKennystfyn%2Fcareplus-digital-patient-intake%2Fmain%2FCarePlus_Swimlane_AsIs_ToBe.drawio)** — opens in your browser, no download needed
+- [CarePlus_Swimlane_AsIs_ToBe.drawio](./CarePlus_Swimlane_AsIs_ToBe.drawio) — editable source file (open at [app.diagrams.net](https://app.diagrams.net))
